@@ -10,4 +10,4 @@
 - inventory management - Solidus/Spree
 - shopping cart - Stripe/Spree
 - Login/Logout - Devise
-- 
+- Small Changes
