@@ -1,1 +1,82 @@
-<h3>Hell's Backbone Coffee</h3>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h2 class='home-title center'>Hell's Backbone Coffee</h2>
+          <p class='about-us-content'>We are a coffee company based in Salt Lake City, this is a long statement about our mission as a company and where we get our coffee and lots of other stuff that I don't know what to put in this about us section on the website yet so Im filling it in with filler text instead to see what it looks like.</p>
+        <div class="row">
+
+          <div class="col s3">
+            <div class="card" id="card-styles">
+              <div class="card-image">
+                <%= image_tag('coffeebag.png')%>
+              </div>
+              <div class="card-content">
+                <p>Angels Landing | Blonde Roast</p>
+              </div>
+              <div class="card-action center">
+                <%= link_to 'Shop', shop_path %>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card" id="card-styles">
+              <div class="card-image">
+                <%= image_tag('coffeebag.png')%>
+              </div>
+              <div class="card-content">
+                <p>Capitol Reef | Medium Roast</p>
+              </div>
+              <div class="card-action center">
+                <%= link_to 'Shop', shop_path %>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card" id="card-styles">
+              <div class="card-image">
+                <%= image_tag('coffeebag.png')%>
+              </div>
+              <div class="card-content">
+                <p>Boulder Mountain | =Dark Roast</p>
+              </div>
+              <div class="card-action center">
+                <%= link_to 'Shop', shop_path %>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+            <div class="card" id="card-styles">
+              <div class="card-image">
+                <%= image_tag('coffeebag.png')%>
+              </div>
+              <div class="card-content">
+                <p>Grand Wash | Espresso Roast</p>
+              </div>
+              <div class="card-action center">
+                <h7><%= link_to 'Shop', shop_path %></h7>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+<%# 
+
+Boulder Mountain | Blonde Roast
+
+Rock Water | Medium Roast
+
+Burr Trail | Dark Roast 
+
+%>
+
+<%# col s12 m6 l3 %>

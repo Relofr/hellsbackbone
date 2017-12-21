@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Initial setup
+- x set up git repo
+- x use postgresql database
+- x set db and migration
+- x create routes for home, shop, about and contact
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# MVP
+- inventory management - Solidus/Spree
+- shopping cart - Stripe/Spree
+- Login/Logout - Devise
+- 

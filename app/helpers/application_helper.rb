@@ -1,22 +1,5 @@
 module ApplicationHelper
-  def nav_items
-    [
-      {
-        url: root_path,
-        title: 'Home'
-      },
-      {
-        url: shop_path,
-        title: 'Shop'
-      },
-      {
-        url: about_path,
-        title: 'About'
-      },
-      {
-        url: contact_path,
-        title: 'Contact'
-      },
-    ]
+  def copyright_generator
+    KyleHatchViewTool::Renderer.copyright "Hell's Backbone Coffee Company", "All rights reserved"
   end
 end

@@ -1,0 +1,28 @@
+<footer class="page-footer" id='footer-styles' >
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="">Hell's Backbone Coffee Company</h5>
+        <p class="grey-text text-lighten-4">
+                <p>5151 Wiley Post Way</p>
+                <p>Salt Lake City, UT 84116</p>
+                <p>support@hellsbackbonecoffee.com</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="">Links</h5>
+        <ul>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'Shop', shop_path %></li>
+          <li><%= link_to 'Subscribe', shop_path %></li>
+          <li><%= link_to 'About', about_path %></li>
+          <li><%= link_to 'Contact', contact_path %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <%= copyright_generator %>
+    </div>
+  </div>
+</footer>

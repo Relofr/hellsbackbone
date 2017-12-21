@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Gloria+Hallelujah|Patrick+Hand+SC|Walter+Turncoat" rel="stylesheet">
+    
+    <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
   </head>
-
   <body>
-    <%= render 'shared/application_nav' %>
-    <%= yield %>
+    <header><%= render 'shared/application_nav' %></header>
+    <%= render 'shared/application_carousel' %>
+    <main><%= yield %></main>
+    <footer><%= render 'shared/application_footer' %></footer>
   </body>
 </html>

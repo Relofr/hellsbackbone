@@ -50,5 +50,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'materialize', '~> 0.4.4'
-gem 'materialize-sass', '~> 0.100.2'
+gem 'materialize-sass'
 gem 'material_icons', '~> 2.2', '>= 2.2.1'
+gem 'kyle_hatch_view_tool', git: 'https://github.com/Relofr/kyle_hatch_view_tool'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'devise', '~> 4.3'

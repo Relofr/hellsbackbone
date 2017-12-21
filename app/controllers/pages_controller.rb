@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def shop
   end
+
+  def subscribe
+  end
 end
