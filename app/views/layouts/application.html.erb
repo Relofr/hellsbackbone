@@ -10,12 +10,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Gloria+Hallelujah|Patrick+Hand+SC|Walter+Turncoat" rel="stylesheet">
-    
     <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+
+    <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+
+    <script>
+      $(document).ready(function(){
+      $('.slider').slider();
+    });
+    </script>
   </head>
   <body>
     <header><%= render 'shared/application_nav' %></header>
-    <%= render 'shared/application_carousel' %>
+    <%= render 'shared/application_slider' %>
+    <%= render 'shared/hi_guest' %>
     <main><%= yield %></main>
     <footer><%= render 'shared/application_footer' %></footer>
   </body>

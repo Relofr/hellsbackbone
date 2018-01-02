@@ -8,6 +8,5 @@
 
 # MVP
 - inventory management - Solidus/Spree
-- shopping cart - Stripe/Spree
+- shopping cart - Stripe/Spree/Shopify
 - Login/Logout - Devise
-- Small Changes
